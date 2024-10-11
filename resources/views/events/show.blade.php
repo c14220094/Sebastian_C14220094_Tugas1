@@ -25,7 +25,7 @@
     <div class="container mt-5">
         <div class="event-header">
             <h1>{{ $event->title }}</h1>
-            <img src="{{ asset('images/' . $event->image) }}" class="event-image" alt="{{ $event->title }}">
+            <img src= "https://picsum.photos/3000" class="event-image" alt="{{ $event->title }}">
         </div>
 
         <div class="row">

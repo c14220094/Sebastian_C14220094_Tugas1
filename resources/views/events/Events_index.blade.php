@@ -51,7 +51,7 @@
             <a href="{{ route('events.show', $event->id) }}" class="text-decoration-none">
             <div class="card">
                 <!-- Placeholder for event image, replace '...' with actual image URL -->
-                <img src="{{ asset('/img.png') }}" class="card-img-top" alt="Event Image">
+                <img src="https://picsum.photos/3000" class="card-img-top" alt="Event Image">
                 <div class="card-body">
                   <h5 class="card-title">{{ $event->title }}</h5>
                   <p class="card-text">{{ $event->description }}</p>
